@@ -92,12 +92,12 @@ img {
   display: block;
 }
 
-.description {
+.purpose, .projectValue, .usage {
   font-size: 30px;
   max-width: 70%;
 }
 
-.description #projectDescription, #backStory{
+.purpose #purpose, #backStory, .projectValue #projectValue, .usage #usage{
   font-size: 45px;
   text-align: left;
 }

@@ -3,10 +3,7 @@ directories = [
   'About',
   'Mission',
   'Contact',
-  'Function',
-  '5',
-  '6',
-  '7'
+  'Function'
 ]
 
 var getDirectories = directories;

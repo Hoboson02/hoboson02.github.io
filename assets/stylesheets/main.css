@@ -107,12 +107,12 @@ img {
 
 .backStory {
   display: grid;
-  align-items: center;
   grid-template-columns: 1fr 1fr;
   column-gap: 5px;
 }
 
 .backStory ul {
+  margin-top: 0;
   font-size: 30px;
 }
 

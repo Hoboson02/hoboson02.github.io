@@ -89,9 +89,20 @@ img {
     margin-right: auto;
 }
 
+.description {
+  font-size: 30px;
+  max-width: 70%;
+}
+
+.description #projectDescription, #backStory{
+  font-size: 45px;
+  text-align: left;
+}
+
 #Mabel {
+  width: 50%;
   min-width: 200px;
-  max-width: 370px;
+  max-width: 570px;
 }
 
 .backStory {
@@ -101,6 +112,6 @@ img {
   column-gap: 5px;
 }
 
-.backStory pre {
+.backStory p {
   font-size: 30px;
 }

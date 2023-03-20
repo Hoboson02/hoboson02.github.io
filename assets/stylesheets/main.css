@@ -112,6 +112,12 @@ img {
   column-gap: 5px;
 }
 
-.backStory p {
+.backStory ul {
   font-size: 30px;
+}
+
+.backStory ul li:before {
+  content: "-";
+  position: absolute;
+  margin-left: -20px;
 }

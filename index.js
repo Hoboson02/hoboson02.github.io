@@ -29,7 +29,7 @@ function createHeader() {
   for (i = 0; i<= getDirectories.length-1; i++) {
     var list = document.createElement("li");
     var item = document.createElement("a");
-    item.setAttribute("class", getDirectories[i]);
+    item.setAttribute("class", "btn");
     if (getDirectories[i] == "") {
       getDirectories[i] = "Home";
       item.setAttribute("href", "/");

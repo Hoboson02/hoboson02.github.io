@@ -16,6 +16,11 @@ h2 {
     text-align: center;
 }
 
+a { 
+  /* text-decoration: none; */
+  color: rgb(255, 255, 255);
+}
+
 h1 a {
   text-decoration: none;
   font-size: 4vw;
@@ -82,11 +87,9 @@ li a {
 }
 
 img {
-    width: 800px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 800px;
+  height: auto;
+  display: block;
 }
 
 .description {
@@ -120,4 +123,13 @@ img {
   content: "-";
   position: absolute;
   margin-left: -20px;
+}
+
+.members img {
+  width: 100px;
+  height: auto;
+}
+
+.members h1{
+  text-align: left;
 }

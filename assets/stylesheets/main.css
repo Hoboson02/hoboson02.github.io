@@ -102,6 +102,21 @@ img {
     margin-right: auto;
 }
 
+#Mabel {
+  width: 100%;
+}
+
+.backStory {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
+
+.backStory pre {
+  font-size: 30px;
+}
+
 .welcome_message {
     font-weight: bold;
     text-align: center;

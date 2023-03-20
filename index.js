@@ -20,8 +20,9 @@ function createHeader() {
   var nav = document.createElement("nav");
   var menu = document.createElement("div")
   nav.setAttribute("id", "nav")
-  var name = document.createElement("div");
+  var name = document.createElement("a");
   name.setAttribute("class", "companyName")
+  name.setAttribute("href", "/")
   name.innerHTML = "Smart Dog Collar"
   nav.appendChild(name)
   menu.setAttribute("class", "menu")

@@ -17,7 +17,6 @@ function createHead() {
 
 function createHeader() {
   const header = document.getElementById("header");
-  var h1 = document.createElement("h1");
   var nav = document.createElement("nav");
   var menu = document.createElement("div")
   nav.setAttribute("id", "nav")
@@ -42,6 +41,5 @@ function createHeader() {
     menu.appendChild(list);
     nav.appendChild(menu);
   }
-  header.appendChild(h1);
   header.appendChild(nav);
 }

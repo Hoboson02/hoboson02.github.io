@@ -18,11 +18,11 @@ function createHead() {
 function createHeader() {
   const header = document.getElementById("header");
   var h1 = document.createElement("h1");
-  var gary = document.createElement("a");
+  var links = document.createElement("a");
   var nav = document.createElement("nav");
-  gary.innerHTML = "Smart Dog Collar";
-  gary.setAttribute("href", "/");
-  h1.appendChild(gary);
+  links.innerHTML = "Smart Dog Collar";
+  links.setAttribute("href", "/");
+  h1.appendChild(links);
   nav.setAttribute("id", "nav")
   for (i = 0; i<= getDirectories.length-1; i++) {
     var list = document.createElement("li");

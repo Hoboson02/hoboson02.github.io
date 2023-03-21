@@ -1,7 +1,9 @@
 directories = [
   '',
-  'Contact',
-  'Function'
+  'Function',
+  'Documentation',
+  'Contact'
+  
 ]
 
 var getDirectories = directories;

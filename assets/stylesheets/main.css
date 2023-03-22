@@ -173,3 +173,33 @@ li a {
 .button:hover {
   background-color: #555;
 }
+
+.functionality {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
+
+.functionality img {
+  width: 90%;
+}
+
+/* @media screen and (max-width: 900px) {
+  .functionality img {
+    width: 1200px
+  }
+} */
+
+
+.steps {
+  /* list-style: inside; */
+  list-style-type: square;
+  font-size: 2vw; 
+}
+
+@media screen and (min-width: 1600px) {
+  .steps {
+     font-size: 30px;
+  }
+}
+

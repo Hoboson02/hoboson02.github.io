@@ -84,18 +84,25 @@ li a {
   text-align: right;
 }
 
+.introduction p{
+  padding: 0px 31px;
+}
+
 #about {
   text-align: center;
   font-size: 1.75vw ;
 }
 
-.purpose, .projectValue, .usage {
+.purpose, .projectValue, .usage, .backStory {
   font-size: 30px;
   max-width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
-.purpose #purpose, #backStory, .projectValue #projectValue, .usage #usage{
-  font-size: 45px;
+.purpose h1, #backStory, .projectValue #projectValue, .usage #usage{
+  font-size: 60px;
   text-align: left;
 }
 
